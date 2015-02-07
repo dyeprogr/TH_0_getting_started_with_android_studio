@@ -30,6 +30,11 @@ public class MainActivity extends ActionBarActivity {
         });
 
         Treehouse temp = new Treehouse();
+
+        //ParseObject object;       if I would want use a class from the third party library - i need to
+        //                          create 'src/main/libs' folder, then move jar file there,
+        //                          then add it - or whole directory - under dependencies in build.gradle file
+        //                          as "compile fileTree('src/main/libs')" (also invalidate restart if it would not work and with alt+enter on it it will import)
     }
 
 
